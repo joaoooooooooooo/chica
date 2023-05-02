@@ -13,6 +13,9 @@ module.exports = {
         const item = await strapi.services.ensaios.findOne({ id });
         return item;
       },
+      config: {
+        auth: false,
+      }
     },
   ],
 };
