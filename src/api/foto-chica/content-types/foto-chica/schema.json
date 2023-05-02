@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "foto_chicas",
+  "info": {
+    "singularName": "foto-chica",
+    "pluralName": "foto-chicas",
+    "displayName": "chica",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Suafoto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

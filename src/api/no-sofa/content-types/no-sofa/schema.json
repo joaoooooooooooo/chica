@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "no_sofas",
+  "info": {
+    "singularName": "no-sofa",
+    "pluralName": "no-sofas",
+    "displayName": "Página Inicial",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fotos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "pessoa": {
+      "type": "string"
+    }
+  }
+}

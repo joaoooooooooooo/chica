@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "icone_sites",
+  "info": {
+    "singularName": "icone-site",
+    "pluralName": "icone-sites",
+    "displayName": "ícone site"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Icone": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
